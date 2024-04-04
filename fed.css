@@ -1,0 +1,64 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #090909;
+    color: #fff;
+    padding: 20px;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    /* margin-left: 100px; */
+    margin: 0px 110px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#fed{
+    display: inline-block;
+}
+
+.navOptions{
+    display: inline-block;
+}
+
+#navList{
+    margin-left: 100px;
+}
